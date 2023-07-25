@@ -1,6 +1,5 @@
 package br.com.movies.api.dto;
 
-import br.com.movies.api.entities.MovieRatingEnum;
 import jakarta.persistence.Column;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

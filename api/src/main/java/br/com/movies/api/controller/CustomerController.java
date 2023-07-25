@@ -1,11 +1,9 @@
 package br.com.movies.api.controller;
 
 import br.com.movies.api.dto.CustomerDTO;
-import br.com.movies.api.dto.RatingDTO;
 import br.com.movies.api.entities.Customer;
 import br.com.movies.api.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
