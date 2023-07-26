@@ -1,17 +1,14 @@
 package br.com.movies.api.service;
 
-import br.com.movies.api.dto.MovieDTO;
 import br.com.movies.api.dto.RatingDTO;
 import br.com.movies.api.entities.Customer;
 import br.com.movies.api.entities.Movie;
-import br.com.movies.api.entities.MovieRatingEnum;
 import br.com.movies.api.entities.Rating;
+import br.com.movies.api.repository.CustomerRepository;
 import br.com.movies.api.repository.MovieRepository;
 import br.com.movies.api.repository.RatingRepository;
-import br.com.movies.api.repository.CustomerRepository;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Random;
 import java.util.UUID;
